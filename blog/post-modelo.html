@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<script>document.documentElement.className="js";</script>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="{{COR}}">
+<title>Título com a pergunta do cliente, em {{CIDADE}}</title>
+<meta name="description" content="Responda a pergunta do título em uma frase, com número quando tiver, e diga o que mais a pessoa encontra no post. Até 160 caracteres.">
+<meta name="author" content="{{NOME}}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="{{URL}}/blog/post-modelo">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{URL}}/blog/post-modelo">
+<meta property="og:title" content="Título com a pergunta do cliente, em {{CIDADE}}">
+<meta property="og:description" content="Responda a pergunta do título em uma frase, com número quando tiver, e diga o que mais a pessoa encontra no post. Até 160 caracteres.">
+<meta property="og:image" content="{{URL}}/img/capa-modelo.svg">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/hanken.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/bricolage.woff2" crossorigin>
+<style>@font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:600 800;font-display:swap;src:url(/fonts/bricolage.woff2) format('woff2')}@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/hanken.woff2) format('woff2')}</style>
+<link rel="stylesheet" href="/css/article.css">
+<link rel="stylesheet" href="/css/site.css">
+<script defer src="/js/analytics.js"></script>
+<script defer src="/js/busca.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{URL}}/blog/post-modelo"
+  },
+  "headline": "Título do post com a pergunta que o cliente faz",
+  "description": "Resumo de uma frase.",
+  "datePublished": "{{HOJE}}",
+  "dateModified": "{{HOJE}}",
+  "author": {
+    "@type": "Person",
+    "name": "{{NOME}}",
+    "jobTitle": "{{PROFISSAO}}",
+    "url": "{{URL}}/sobre",
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Registro profissional",
+      "name": "{{REGISTRO}}"
+    }
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "{{NOME}}",
+    "url": "{{URL}}"
+  },
+  "inLanguage": "pt-BR",
+  "url": "{{URL}}/blog/post-modelo"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Escreva aqui a pergunta exata que o cliente faz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Responda na primeira frase, com número e data quando tiver. Depois explique em duas ou três frases. O texto daqui tem que ser igual ao do JSON-LD."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa, em média, em {{CIDADE}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dê uma faixa só se tiver fonte e data. Sem fonte, diga do que o valor depende e convide para a conversa no WhatsApp."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como {{NOME_CURTO}} pode ajudar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Me chama no WhatsApp com o que você precisa. Eu respondo com as perguntas que faltam e, se fizer sentido, mando a proposta por escrito."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a href="#conteudo" class="skip">Pular para o conteúdo</a>
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="/" class="logo">{{NOME_CURTO}}<b>.</b></a>
+    <div class="nav-right">
+      <a href="/projetos" class="nav-back">Projetos</a>
+      <a href="/blog" class="nav-back">Blog</a>
+      <button type="button" class="nav-busca" data-busca aria-label="Buscar no site"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg><span>Buscar</span></button>
+      <a href="{{WA_LINK}}" target="_blank" rel="noopener" class="btn btn-zap"><svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 1-4.8-.2-.4c-1-1.6-1.5-3.4-1.5-5.3 0-5.5 4.5-10 10-10s10 4.5 10 10-4.5 10-10 10z"/></svg> WhatsApp</a>
+    </div>
+  </div>
+</header>
+<main id="conteudo" class="article"><div class="wrap">
+  <nav class="breadcrumb" aria-label="Trilha de navegação"><a href="/">Início</a> › <a href="/blog">Blog</a> › <span>Título curto</span></nav>
+  <header class="art-head"><span class="kicker">Guia · {{CIDADE}}</span><h1>Título com a pergunta do cliente, em {{CIDADE}}</h1><p class="art-sub">Uma frase que promete o que o post entrega.</p>
+    <div class="art-meta"><span class="who"><span class="av">{{INICIAL}}</span> {{NOME}} · {{REGISTRO}}</span><span class="dot">·</span><time datetime="{{HOJE}}">{{DATA}}</time></div></header>
+  <div class="art-cover"><img src="/img/capa-modelo.svg" alt="Descreva a capa" width="1600" height="900" loading="eager"></div>
+  <article class="prose">
+    <div class="resposta"><p><b>Resposta curta:</b> a resposta da pergunta do título em duas frases. É o trecho que o Google e as IAs citam.</p></div>
+    <p>Sou {{NOME}}, {{PROFISSAO_MIN}} em {{CIDADE}} ({{REGISTRO}}). Explique em uma frase por que você pode responder isso com segurança.</p>
+    <h2>Primeira parte da <em>resposta</em></h2><p>Texto. Parágrafos curtos, números com data e fonte.</p>
+    <ul class="checks"><li>Item prático.</li><li>Outro item prático.</li></ul>
+    <h2>O que perguntar <em>antes de contratar</em></h2><p>Texto.</p>
+    <a class="wa-inline" href="[[wa: Olá {{NOME_CURTO}}! Li o seu post e quero conversar sobre o meu caso.]]" target="_blank" rel="noopener">Conversar sobre o meu caso →</a>
+    <h2>Perguntas <em>frequentes</em></h2>
+<details>
+  <summary>Escreva aqui a pergunta exata que o cliente faz?</summary>
+  <p>Responda na primeira frase, com número e data quando tiver. Depois explique em duas ou três frases. O texto daqui tem que ser igual ao do JSON-LD.</p>
+</details>
+<details>
+  <summary>Quanto custa, em média, em {{CIDADE}}?</summary>
+  <p>Dê uma faixa só se tiver fonte e data. Sem fonte, diga do que o valor depende e convide para a conversa no WhatsApp.</p>
+</details>
+<details>
+  <summary>Como {{NOME_CURTO}} pode ajudar?</summary>
+  <p>Me chama no WhatsApp com o que você precisa. Eu respondo com as perguntas que faltam e, se fizer sentido, mando a proposta por escrito.</p>
+</details>
+    <div class="fonte-box"><p><b>De onde vêm os números.</b> Liste aqui as fontes e as datas de cada dado do post.</p></div>
+  </article>
+  <aside class="art-cta"><h2>Ficou com dúvida no seu caso?</h2><p>Me chama no WhatsApp que eu te respondo.</p><a href="{{WA_LINK}}" target="_blank" rel="noopener" class="btn btn-zap"><svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 1-4.8-.2-.4c-1-1.6-1.5-3.4-1.5-5.3 0-5.5 4.5-10 10-10s10 4.5 10 10-4.5 10-10 10z"/></svg> Conversar no WhatsApp</a></aside>
+  <div class="art-back"><a href="/blog">← Ver todos os artigos</a></div>
+</div></main>
+<footer>
+  <div class="wrap foot-in">
+    <div class="foot-logo">{{NOME_CURTO}}<b>.</b></div>
+    <p>{{NOME}} · {{PROFISSAO}} · {{REGISTRO}}{{CNPJ}}<br>{{CIDADE}}/{{UF}}</p>
+    <p><a href="/">Início</a> · <a href="/sobre">Sobre</a> · <a href="/projetos">Projetos</a> · <a href="/blog">Blog</a> · <a href="{{WA_LINK}}" target="_blank" rel="noopener">WhatsApp</a> · <a href="/privacidade">Privacidade</a></p>
+  </div>
+</footer>
+<a href="{{WA_LINK}}" class="wa-float" aria-label="Falar no WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 1-4.8-.2-.4c-1-1.6-1.5-3.4-1.5-5.3 0-5.5 4.5-10 10-10s10 4.5 10 10-4.5 10-10 10z"/></svg></a>
+<script>
+(function(){var n=document.getElementById('nav');if(!n)return;var f=function(){n.classList.toggle('scrolled',window.scrollY>10)};f();window.addEventListener('scroll',f,{passive:true});})();
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# Arquivos internos: o Netlify publica a raiz inteira, então eles respondem 404.
+/privado/*                  /404.html  404!
+/README.md                  /404.html  404!
+/CLAUDE.md                  /404.html  404!
+/ROADMAP.md                 /404.html  404!
+/LICENSE                    /404.html  404!
+/site.json                  /404.html  404!
+/.claude/*                  /404.html  404!
+
+# Atalhos curtos (para falar, imprimir e colocar em cartão), um por linha:
+# /cozinha                  /projetos/reforma-de-cozinha-bairro 301
+/whatsapp                   {{WA_LINK}} 302

@@ -1,0 +1,1 @@
+{"name":"{{NOME}}","short_name":"{{NOME_CURTO}}","icons":[{"src":"/favicon.svg","sizes":"any","type":"image/svg+xml"}],"theme_color":"{{COR}}","background_color":"#F7F9FC","display":"browser"}

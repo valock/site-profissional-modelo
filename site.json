@@ -1,0 +1,31 @@
+{
+  "_leia": "Preencha este arquivo e rode: python3 privado/configurar.py. O exemplo abaixo é uma arquiteta fictícia: troque tudo.",
+  "nome": "Ana Exemplo da Silva",
+  "nome_curto": "Ana",
+  "profissao": "Arquiteta",
+  "area": "arquitetura residencial e de interiores",
+  "frase": "Projeto de casa, reforma e interiores, do primeiro esboço à obra pronta.",
+  "cidade": "Uberlândia",
+  "uf": "MG",
+  "conselho": "CAU",
+  "registro": "CAU nº A000000-0",
+  "cnpj": "",
+  "dominio": "exemplo.com.br",
+  "whatsapp": "5534900000000",
+  "whatsapp_formatado": "(34) 90000-0000",
+  "email": "contato@exemplo.com.br",
+  "instagram": "",
+  "ga4_id": "",
+  "cor": "#1A56DB",
+  "cor_escura": "#11399E",
+  "cor_clara": "#EAF1FE",
+  "schema_tipo": "ProfessionalService",
+  "mensagem_whatsapp": "Olá {{NOME_CURTO}}! Vi o seu site e quero conversar sobre um projeto.",
+  "bio": "Sou arquiteta em Uberlândia e trabalho com projeto residencial e de interiores. Acompanho cada cliente do levantamento à entrega da obra, com orçamento e prazo combinados por escrito antes de começar.",
+  "servicos": [
+    {"nome": "Projeto de casa", "descricao": "Do estudo de implantação ao projeto aprovado na prefeitura, com memorial e quantitativos."},
+    {"nome": "Reforma", "descricao": "Levantamento do que existe, projeto da reforma e acompanhamento da obra em etapas."},
+    {"nome": "Interiores", "descricao": "Layout, marcenaria, iluminação e especificação de materiais, ambiente por ambiente."}
+  ],
+  "palavras_proibidas": ["melhor", "maior", "líder", "nº 1", "garantido", "100% garantido"]
+}
