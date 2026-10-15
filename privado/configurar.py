@@ -9,7 +9,7 @@ O que ele faz em todos os arquivos de texto do site:
 - troca {{CHAVE}} pelo valor do site.json (lista completa em CHAVES, abaixo);
 - troca [[wa: mensagem]] por um link wa.me pronto, com a mensagem codificada;
 - monta a lista de serviços na home e no JSON-LD;
-- gera o sitemap.xml, o busca.json e o llms.txt.
+- gera o sitemap.xml, os índices da busca (busca-indice.json e busca.json) e o llms.txt.
 
 Pode rodar de novo depois de mudar o site.json: ele guarda uma cópia limpa do
 modelo em privado/.modelo na primeira vez e sempre parte dela. Páginas novas

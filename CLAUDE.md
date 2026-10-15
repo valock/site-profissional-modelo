@@ -54,6 +54,11 @@ Escreva aqui as que valem para este site, por exemplo:
    python3 privado/gerar-busca.py
    python3 privado/gerar-llms.py
    ```
+   O `gerar-busca.py` grava o `busca-indice.json` (a lupa) e o `busca.json` (lista simples,
+   usada pelo llms). Sinônimos, atalhos e sugestões da lupa ficam em
+   `privado/busca-regras.json`: acrescente o jeito como o cliente fala da profissão. Mexeu
+   nas regras, rode `node privado/testar-busca.mjs http://localhost:4173` com o site
+   servido localmente e compare com a rodada anterior.
 5. **Posts de divulgação**: escreva o texto do Google Meu Negócio, do Instagram e do
    WhatsApp em `privado/POSTS-AAAA-MM-DD.md` (modelo em `privado/POSTS-modelo.md`).
 6. **Conferência**: rode `python3 privado/conferir.py`. Ele acusa travessão, palavra

@@ -13,7 +13,9 @@ para o Claude publicar pelo terminal.
   Privacidade (LGPD) e 404.
 - JSON-LD em todas as páginas: profissional e serviços, pessoa com registro no
   conselho, artigo e FAQ.
-- Busca interna (`busca.json`), `llms.txt` para IAs, `sitemap.xml` e `robots.txt`.
+- Busca interna na lupa do menu: entende sinônimo, plural, erro de digitação e palavra pela metade,
+  mostra atalho para o WhatsApp e sugere páginas na 404 (regras em `privado/busca-regras.json`).
+- `llms.txt` para IAs, `sitemap.xml` e `robots.txt`.
 - GA4 opcional, com o clique no WhatsApp medido por posição do botão.
 - `_redirects` que esconde os arquivos internos e a pasta `privado/`.
 - Scripts em `privado/`: configurar, gerar os índices e conferir antes de subir.
