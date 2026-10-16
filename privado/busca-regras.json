@@ -1,0 +1,39 @@
+{
+  "_leia": "Regras da busca do site (a lupa do menu). Depois de mudar, rode da raiz: python3 privado/gerar-busca.py. SINONIMOS: cada lista é um grupo de jeitos diferentes de dizer a mesma coisa; quem busca qualquer um acha as páginas que usam os outros. Acrescente o jargão da sua profissão e o jeito como o cliente fala (os dois últimos grupos são do exemplo da arquiteta: troque). Acento e maiúscula não importam. ATALHOS: aparecem no topo quando a busca é uma das expressões de 'q' (com no máximo uma palavra a mais); 'u': 'whatsapp' vira o link do seu WhatsApp com a mensagem do site.json. QUALIFICADORES: características que somam pontos na página que tem, mas não tiram da lista a que não fala delas. SUGESTOES: botões da busca vazia; vazio usa os serviços do site.json. TEXTOS: o exemplo dentro da caixa, a dica da busca vazia e a frase do 'não achei'. NAO_ACHEI: a mensagem do botão de WhatsApp quando a busca não acha nada ({q} vira o que a pessoa digitou).",
+
+  "sinonimos": [
+    ["orcamento", "preco", "valor", "quanto custa", "quanto cobra", "custo", "honorarios", "tabela de precos"],
+    ["prazo", "quanto tempo", "demora", "duracao", "cronograma"],
+    ["agendar", "agendamento", "marcar", "horario", "agenda", "consulta", "reuniao", "visita"],
+    ["endereco", "onde fica", "localizacao", "como chegar", "mapa"],
+    ["pagamento", "forma de pagamento", "parcelar", "parcelamento", "pix", "cartao", "boleto"],
+    ["portfolio", "projetos", "trabalhos", "cases", "obras realizadas"],
+    ["sobre", "quem e", "formacao", "experiencia", "curriculo"],
+    ["duvidas", "perguntas frequentes", "faq"],
+    ["online", "a distancia", "remoto", "videochamada"],
+    ["reforma", "reformar", "obra"],
+    ["interiores", "decoracao", "design de interiores"]
+  ],
+
+  "atalhos": [
+    {
+      "q": ["whatsapp", "zap", "wpp", "contato", "telefone", "falar", "atendimento", "orcamento", "pedir orcamento"],
+      "u": "whatsapp",
+      "t": "Falar com {{NOME_CURTO}} no WhatsApp",
+      "d": "Me manda a sua dúvida ou o seu pedido de orçamento.",
+      "c": "Contato"
+    }
+  ],
+
+  "qualificadores": [],
+
+  "sugestoes": [],
+
+  "textos": {
+    "exemplo": "Serviço, projeto, dúvida...",
+    "dica": "Busque por serviço, projeto ou dúvida.",
+    "nada": "Tente outra palavra ou me pergunte direto."
+  },
+
+  "nao_achei": "Olá, {{NOME_CURTO}}! Procurei \"{q}\" no site e não achei. Pode me ajudar?"
+}

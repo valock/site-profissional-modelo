@@ -33,6 +33,7 @@
     else if (a.closest('.nav')) pos = 'menu';
     else if (a.closest('footer')) pos = 'rodape';
     else if (a.closest('.prose')) pos = 'texto';
+    else if (a.closest('.bx-caixa')) pos = 'busca';
     var p = { posicao: pos, pagina: location.pathname };
     if (a.getAttribute('data-servico')) p.servico = a.getAttribute('data-servico');
     gtag('event', 'contato_whatsapp', p);
